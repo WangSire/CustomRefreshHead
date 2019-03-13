@@ -31,6 +31,7 @@
 //    [self.view addSubview:self.Loadview];
 
     
+    
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height - 64)];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
